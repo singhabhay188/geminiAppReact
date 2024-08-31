@@ -1,0 +1,51 @@
+span{
+    background: linear-gradient(16deg,#4b90ff,#ff5546);
+    background-clip: text;
+    color: transparent;
+}
+
+#cards {
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    padding: 20px;
+}
+
+.card{
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    cursor: pointer;
+    justify-content: space-between;
+    width: full;
+}
+.card>i{
+    text-align: end;
+}
+.card:hover{
+    scale: 1.05;
+}
+
+
+
+/* Chats */
+
+.chatMessage{
+    padding: 10px 15px;
+    border-radius: 15px;
+    max-width: 70%;
+}
+.user {
+    background-color: #008080;
+    color: white;
+    text-align: right;
+    align-self: flex-end;
+}
+.gemini {
+    background-color: #C24B42;
+    color: white;
+    text-align: left;
+    align-self: flex-start;
+}
